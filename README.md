@@ -80,8 +80,4 @@ jupyter notebook notebooks/Fakenews.ipynb
 - Create a web interface for real-time predictions
 - Expand the dataset with more recent articles
 
-## License
-[Add your chosen license here]
 
-## Contact
-[Add your contact information here]
