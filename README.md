@@ -10,7 +10,9 @@ This project implements a machine learning model to detect fake news articles us
 - Well-balanced performance across both categories
 
 ## Dataset
-The dataset contains 44,898 news articles with the following distribution:
+Dataset Source: [Fake News Detection Dataset on Kaggle](https://www.kaggle.com/datasets/bhavikjikadara/fake-news-detection)
+#
+This dataset contains 44,898 news articles with the following distribution:
 - Fake news articles: 23,481
 - True news articles: 21,417
 
@@ -34,13 +36,8 @@ The dataset contains 44,898 news articles with the following distribution:
 ## Project Structure
 ```
 fake-news-detection/
-├── data/
-│   ├── Fake.csv
-│   └── True.csv
-├── notebooks/
-│   └── Fakenews.ipynb
+├── Fakenews.ipynb  
 ├── README.md
-└── requirements.txt
 ```
 
 ## Requirements
@@ -53,8 +50,8 @@ fake-news-detection/
 ## Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/[your-username]/fake-news-detection.git
-cd fake-news-detection
+git clone https://github.com/MGK-VENKATESH/Fake-News-Detection.git
+cd Fake-News-Detection
 ```
 
 2. Install required packages
@@ -80,4 +77,6 @@ jupyter notebook notebooks/Fakenews.ipynb
 - Create a web interface for real-time predictions
 - Expand the dataset with more recent articles
 
+## Acknowledgments
+- Dataset provided by [Bhavik Jikadara on Kaggle](https://www.kaggle.com/datasets/bhavikjikadara/fake-news-detection)
 
